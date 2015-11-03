@@ -40,7 +40,7 @@ if (isset($_REQUEST['email']))
     $mail->SMTPDebug = 1;
     $mail->From = "visitor@telindia";
     $mail->FromName = "Visitor";
-    $mail->AddAddress("sameer.thite@rediffmail.com");    
+    $mail->AddAddress("sameershivajimaratha@gmail.com");    
     $mail->WordWrap = 50;   
     $mail->IsHTML(true);
     
