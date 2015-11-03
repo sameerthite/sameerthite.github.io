@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    
+
+<head>
+        <!-- Meta Tags -->        
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tel India-Contact</title>
+        <meta name="description" content="A Template by Denis Griu"/>
+        <meta name="keywords" content="HTML5, Bootstrap 3, CSS3, javascript, PHP, onepage, responsive, mobile"/>
+        <meta name="author" content="Denis Griu"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+    </head>
+    <body>
+
+      
+        <!-- Header Background Parallax Image -->
+        <div id="contact_bg">
+            <div class="head-title">
+                <h2>Contact</h2>                
+            </div>  
+        </div>
+        <!-- End Header Background Parallax Image -->                
+
+        <!-- Contact Form (name, email, phone and message inputs for your email form "should change your email adress in contact.php file") -->     
+        <div class="bg-color padding-top-x2">
+            <div class="container padding-bottom">
+                <div class="col-lg-12" id="contact">                
+                    <div id="message"></div>
+                    <form method="post" action="sendmail.php" name="contactform" id="contactform">
+                        <fieldset>
+						
+                           
+                            <div class="col-md-6"> 
+							<div class="col-sm-10 about-caption">
+                              <center><h3>Contact Us</h3>  </center>
+                                  </div>
+                                <!-- Name -->
+                                <input name="name" type="text" id="name" size="30" value="" placeholder="Name"/>
+                                <br />
+                                <!-- Email -->
+                                <input name="email" type="text" id="email" size="30" value="" placeholder="Email"/>
+                                <br /> 
+                                <!-- Phone -->
+                                <input name="phone" type="text" id="phone" size="30" value="" placeholder="Phone"/>
+
+                                <!-- Message -->                                                                        
+                                <textarea name="comments" cols="40" rows="5" id="comments" placeholder="Message"></textarea>
+
+                                <!-- Submit Button -->                                        
+                                <button type="submit" class="btn btn-default btn-submit submit" id="submit" value="Submit">Submit</button>
+                                
+                            </div>
+                                                                                                
+                        </fieldset>
+                    </form>
+                </div>
+            </div>   
+        </div>          
+        <!-- End Contact Form -->
+
+        <!-- Google Map (adress on map can be changed in app.js file) -->
+        <div id="map-canvas"></div>
+        <!-- End Google Map -->
+
+    
+        
+
+    </body>
+
+
+</html>
