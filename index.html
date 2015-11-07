@@ -388,7 +388,7 @@
                 <!-- CONTACT FORM -->
                 <form class="form-box" action="" method="post">
                     <label>Full name :</label>
-                    <input type="text" name="senderName" id="senderName" required="required" maxlength="50" />
+                    <input type="text" name="sender" id="sender" required="required" maxlength="50" />
                     <label>Phone Number :</label>
                     <input type="text" name="phoneNumber" id="phoneNumber" required="required" maxlength="50" />
                     <label>Email address :</label>
@@ -397,6 +397,43 @@
                     <textarea name="message" id="message" required="required"></textarea>
                     <input type="submit" id="sendMessage" name="sendMessage" class="cv-button primary" value="Send Message" />
                 </form>
+                <?php
+
+                require_once("Mail.php");
+
+
+                if(isset($_POST['submit'])) {
+                  
+                $from = 'info@sameerthite.in';
+                $to = 'sameershivajimaratha@gmail.com';
+                $subject = 'Form to email message';
+                $body = $_POST["message"];
+
+                $headers = array(
+                    'From' => $from,
+                    'To' => $_POST["senderEmail"],
+                    'Subject' => $subject
+                );
+
+                $smtp = Mail::factory('smtp', array(
+                        'host' => 'ssl://smtp.gmail.com',
+                        'port' => '465',
+                        'auth' => true,
+                        'username' => 'sameershivajimaratha@gmail.com',
+                        'password' => 'sameer4747' 
+                        ));
+                    
+
+                $mail = $smtp->send($to, $headers, $body);
+
+                if (PEAR::isError($mail)) {
+                    echo('<p>' . $mail->getMessage() . '</p>');
+                } else {
+                    echo('<p>Message successfully sent!</p>');
+                }
+                }
+
+                ?>
             </div>
         </section>
         <!-- FOOTER -->
