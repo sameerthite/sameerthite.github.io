@@ -388,14 +388,14 @@
                 <!-- CONTACT FORM -->
                 <form class="form-box" action="" method="post">
                     <label>Full name :</label>
-                    <input type="text" name="sender" id="sender" required="required" maxlength="50" />
+                    <input type="text" name="sender" id="sender" required="required" maxlength="50" required/>
                     <label>Phone Number :</label>
-                    <input type="text" name="phoneNumber" id="phoneNumber" required="required" maxlength="50" />
+                    <input type="text" name="phoneNumber" id="phoneNumber" required="required" maxlength="50" required/>
                     <label>Email address :</label>
-                    <input type="email" name="senderEmail" id="senderEmail" required="required" maxlength="50" />
+                    <input type="email" name="senderEmail" id="senderEmail" required="required" maxlength="50" required/>
                     <label>Message :</label>
-                    <textarea name="message" id="message" required="required"></textarea>
-                    <input type="submit" id="sendMessage" name="sendMessage" class="cv-button primary" value="Send Message" />
+                    <textarea name="message" id="message" required="required" required></textarea>
+                    <input type="submit" id="submit" name="submit" class="cv-button primary" value="Send Message" />
                 </form>
             </div>
         </section>
@@ -438,14 +438,44 @@
     <script type="text/javascript" src="js/googlemap.js"></script>
     <!-- CUSTOM JS -->
     <script type="text/javascript" src="js/home-custom.js"></script>
-    <!-- DOWNLOAD FILE JS -->
-    <script type="text/javascript" src="js/jquery.multiDownload.js"></script>
-    <script>
-    $('#download-all').click(function (event) {
-        event.preventDefault();
-        $('.my-file').multiDownload();
-    });
-    </script>
 </body>
 
 </html>
+<?php
+require_once 'PHPMailer/PHPMailerAutoload.php';
+
+if(isset($_POST['submit'])) {
+
+    $mail = new PHPMailer();
+    $mail->IsSMTP();
+    $mail->CharSet = 'UTF-8';
+    $mail->Host = "smtp.gmail.com";
+    $mail->SMTPAuth= true;
+    $mail->Port = 465; // Or 587
+    $mail->Username= 'sameershivajimaratha@gmail.com';
+    $mail->Password= 'sameerth4747';
+    $mail->SMTPSecure = 'ssl';
+    $mail->From = 'sameershivajimaratha@gmail.com';
+    $mail->FromName= 'sameer thite';
+    $mail->isHTML(true);
+    $mail->Subject = 'Subject: '.$_POST['subject'];
+
+
+    $mail->Body = 'Name: '.$_POST['sender']."<br>". 'Email: '.$_POST['senderEmail']."<br>".'Phone: ' .$_POST['phoneNumber']."<br>".'Message: '.$_POST['message'];
+    $mail->addAddress('sameershivajimaratha@gmail.com');
+
+    if(!$mail->Send())
+    {
+       echo "Message could not be sent. <p>";
+       echo "Mailer Error: " . $mail->ErrorInfo;
+       exit;
+    }
+    else {
+    
+    echo '<script>';
+    echo 'alert("Form Successfuly Sent!")';
+    echo '</script>';
+  
+    }
+    //echo "Message has been sent";
+}
