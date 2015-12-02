@@ -338,10 +338,197 @@ form .cv-button {
     margin: 0px;
     height: 100%;
     z-index: 999999999;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url('../images/loading.gif');
+    
 }
+.ts_preloading_box {
+    margin:45px 0;
+    padding:0;
+    background:#DA0040;
+    min-height:310px;
+}
+
+#ts-preloader-absolute23 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    margin-left: -75px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.tsperloader23 {
+    width: 20px;
+    height: 20px;
+    background-color:#FFF;
+    position: absolute;
+    left: 65px;
+    top: 65px;
+}
+.tsperloader23:nth-child(2n+0) {
+ margin-right: 0px;
+}
+#tsperloader23_one {
+    -webkit-animation: tsperloader23_one 2s infinite;
+    animation: tsperloader23_one 2s infinite;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+#tsperloader23_two {
+    -webkit-animation: tsperloader23_two 2s infinite;
+    animation: tsperloader23_two 2s infinite;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+#tsperloader23_three {
+    -webkit-animation: tsperloader23_three 2s infinite;
+    animation: tsperloader23_three 2s infinite;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+#tsperloader23_four {
+    -webkit-animation: tsperloader23_four 2s infinite;
+    animation: tsperloader23_four 2s infinite;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+#tsperloader23_five {
+    -webkit-animation: tsperloader23_five 2s infinite;
+    animation: tsperloader23_five 2s infinite;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+#tsperloader23_six {
+    -webkit-animation: tsperloader23_six 2s infinite;
+    animation: tsperloader23_six 2s infinite;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+#tsperloader23_seven {
+    -webkit-animation: tsperloader23_seven 2s infinite;
+    animation: tsperloader23_seven 2s infinite;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+#tsperloader23_eight {
+    -webkit-animation: tsperloader23_eight 2s infinite;
+    animation: tsperloader23_eight 2s infinite;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+#tsperloader23_big {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+    -webkit-animation: tsperloader23_big 2s infinite;
+    animation: tsperloader23_big 2s infinite;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+ @-webkit-keyframes tsperloader23_big {
+ 50% {
+-webkit-transform: scale(0.5);
+}
+}
+ @keyframes tsperloader23_big {
+ 50% {
+ transform: scale(0.5);
+ -webkit-transform: scale(0.5);
+}
+}
+ @-webkit-keyframes tsperloader23_one {
+ 50% {
+-webkit-transform: translate(-65px, -65px);
+}
+}
+ @keyframes tsperloader23_one {
+ 50% {
+ transform: translate(-65px, -65px);
+ -webkit-transform: translate(-65px, -65px);
+}
+}
+ @-webkit-keyframes tsperloader23_two {
+ 50% {
+-webkit-transform: translate(0, -65px);
+}
+}
+ @keyframes tsperloader23_two {
+ 50% {
+ transform: translate(0, -65px);
+ -webkit-transform: translate(0, -65px);
+}
+}
+ @-webkit-keyframes tsperloader23_three {
+ 50% {
+-webkit-transform: translate(65px, -65px);
+}
+}
+ @keyframes tsperloader23_three {
+ 50% {
+ transform: translate(65px, -65px);
+ -webkit-transform: translate(65px, -65px);
+}
+}
+ @-webkit-keyframes tsperloader23_four {
+ 50% {
+-webkit-transform: translate(65px, 0);
+}
+}
+ @keyframes tsperloader23_four {
+ 50% {
+ transform: translate(65px, 0);
+ -webkit-transform: translate(65px, 0);
+}
+}
+ @-webkit-keyframes tsperloader23_five {
+ 50% {
+-webkit-transform: translate(65px, 65px);
+}
+}
+ @keyframes tsperloader23_five {
+ 50% {
+ transform: translate(65px, 65px);
+ -webkit-transform: translate(65px, 65px);
+}
+}
+ @-webkit-keyframes tsperloader23_six {
+ 50% {
+-webkit-transform: translate(0, 65px);
+}
+}
+ @keyframes tsperloader23_six {
+ 50% {
+ transform:  translate(0, 65px);
+ -webkit-transform:  translate(0, 65px);
+}
+}
+ @-webkit-keyframes tsperloader23_seven {
+ 50% {
+-webkit-transform: translate(-65px, 65px);
+}
+}
+ @keyframes tsperloader23_seven {
+ 50% {
+ transform: translate(-65px, 65px);
+ -webkit-transform: translate(-65px, 65px);
+}
+}
+ @-webkit-keyframes tsperloader23_eight {
+ 50% {
+-webkit-transform: translate(-65px, 0);
+}
+}
+ @keyframes tsperloader23_eight {
+ 50% {
+ transform: translate(-65px, 0);
+ -webkit-transform: translate(-65px, 0);
+}
+}
+
 /* ================= PAGE STRUCTURE ================== */
 .cv-left-slider {
     width: 50%;
