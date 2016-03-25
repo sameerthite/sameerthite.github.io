@@ -1,0 +1,124 @@
+<div class="container">
+	<h3 class="page-heading">Contact <span class="orange">ME</span></h3>
+</div>
+
+<!-- SECTION CONTACT STARTS -->
+<section class="contact-section" ng-controller="MainController">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-block">
+						<h4>Contact ME</h4>
+						<p>
+							feel free to contact me
+						</p>
+						<p ng-show="msg">{{msg}}</p>
+						<form ng-submit="addFormSubmit()" name="myform" novalidate>
+
+						  <fieldset class="form-group">
+						    <label for="formGroupExampleInput">Name</label>
+						    <input type="text" class="form-control"
+						    placeholder="Name"
+						    name="fullname"
+						    ng-model="fullname"
+						    ng-required="true">
+						     <small class="text-muted red"
+						     ng-show="myform.fullname.$invalid && myform.fullname.$touched">
+						     Please enter your name</small>
+						  </fieldset>
+
+						  <fieldset class="form-group">
+						    <label for="formGroupExampleInput2">Email</label>
+						    <input type="email" class="form-control"
+						    placeholder="Email"
+						    name="email"
+						    ng-model="email"
+						    ng-required="true" >
+						    <small class="text-muted red"
+						    ng-show="myform.email.$invalid && myform.email.$touched">
+						    Invalid email address</small>
+						  </fieldset>
+
+						  <fieldset class="form-group">
+						    <label for="formGroupExampleInput2">Phone</label>
+						    <input type="number" class="form-control"
+						    placeholder="Phone"
+						    name="phone"
+						    ng-model="phone"
+						    ng-required="true" >
+						    <small class="text-muted red"
+						    ng-show="myform.phone.$invalid && myform.phone.$touched">
+						    Please enter phone number</small>
+						  </fieldset>
+
+						  <fieldset class="form-group">
+						  	<label for="exampleTextarea">Message</label>
+    						<textarea class="form-control"
+    						ng-model="message" rows="3"
+    						name="message"
+    						ng-required="true" ></textarea>
+    						<small class="text-muted red"
+    						ng-show="myform.message.$invalid && myform.message.$touched">
+    						Type something for me</small>
+						  </fieldset>
+
+						  <fieldset class="form-group">
+						  	<input type="submit" value="SUBMIT" name="submit" class="btn btn-warning">
+						  </fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card">
+						<div class="card-block">
+								<h4>About THIS website</h4>
+								<p>
+									feel free to write about my (this) portfolio website
+								</p>
+								<p ng-show="fmsg">{{fmsg}}</p>
+								<form name="myform2" ng-submit="addFeedback()" method="post" novalidate>
+
+									<fieldset class="form-group">
+										<label for="formGroupExampleInput">Name</label>
+										<input type="text" class="form-control"
+										placeholder="Name"
+										name="feedbackname"
+										ng-model="feedbackname"
+										ng-required="true">
+										 <small class="text-muted red"
+										 ng-show="myform2.feedbackname.$invalid && myform2.feedbackname.$touched">
+										 Please enter your name</small>
+									</fieldset>
+
+									<fieldset class="form-group">
+								  	<label for="exampleTextarea">Message</label>
+		    						<textarea class="form-control"
+		    						ng-model="feedbackmessage" rows="3"
+		    						name="feedbackmessage"
+		    						ng-required="true" ></textarea>
+		    						<small class="text-muted red"
+		    						ng-show="myform2.feedbackmessage.$invalid && myform2.feedbackmessage.$touched">
+		    						Type something for me</small>
+								  </fieldset>
+
+									<fieldset class="form-group">
+								  	<button type="submit" name="submit" class="btn btn-success">SAVE</button>
+								  </fieldset>
+
+								</form>
+								<br>
+								<!-- <h5>Comments:</h5>
+								<p ng-repeat="f in feedback">
+									{{feedbackname}}
+								</p> -->
+						</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- SECTION CONTACT ENDS -->

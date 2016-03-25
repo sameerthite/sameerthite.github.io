@@ -1,0 +1,34 @@
+<section class="card login">
+	<form name="myform" ng-submit="register()" novalidate>
+		<div class="col-md-offset-3 col-md-6">
+			<div class="textintro">
+			<h3>Hey there!!!</h3>
+			<p>Login to access your account!</p>
+			<p ng-show="message">{{ message }}</p>
+			</div>
+
+			<fieldset>
+			<div class="form-group">
+				<input type="firstname" class="form-control" name="firstname" placeholder="First Name" ng-model="user.firstname" ng-required="true">
+				<p class="error" ng-show="myform.firstname.$invalid && myform.firstname.$touched">First name is required</p>
+			</div>
+			<div class="form-group">
+				
+				<input type="lastname" class="form-control" name="lastname" placeholder="Last Name" ng-model="user.lastname" ng-required="true">
+				<p class="error" ng-show="myform.lastname.$invalid && myform.lastname.$touched">Last name is required</p>
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" name="email" placeholder="Email" ng-model="user.email" ng-required="true">
+				<p class="error" ng-show="myform.email.$invalid && myform.email.$touched">Must be a valid email</p>
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" name="password" placeholder="Password" ng-model="user.password" ng-required="true">
+				<p class="error" ng-show="myform.password.$invalid && myform.password.$touched">Password is required</p>
+			</div>
+			</fieldset>
+
+			<button type="submit" class="btn btn-primary" ng-disabled="myform.$invalid">Register</button>
+			<p>or <a href="#/login">Login</a></p>
+		</div>
+	</form>
+</section>

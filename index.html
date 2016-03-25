@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html ng-app="myPortfolio">
+	<head>
+        <meta charset="utf-8">
+        <meta name="author" content="CHANGE-ME">
+        <meta name="description" content="CHANGE-ME">
+
+        <!-- Mobile Stuff -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msapplication-tap-highlight" content="no">
+
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <title>HOME</title>
+
+        <!-- CSS FILES -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/tether.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+				<link rel="stylesheet" href="assets/css/animate.css">
+        <!-- END CSS FILES -->
+
+    </head>
+
+    <body ng-controller="MainController">
+       <!-- NAVIGATION -->
+       <nav class="navbar navbar-fixed-top navbar-dark">
+         <div class="container">
+
+          <a class="navbar-brand" href="#/">PORTFOLIO <small>Sameer Thite</small></a>
+          <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+            &#9776;
+          </button>
+          <div class="clearfix1"></div>
+          <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+
+            <ul class="nav navbar-nav pull-lg-right pull-md-right pull-sm-right pull-xs-left">
+              <li class="nav-item active">
+                <a class="nav-link" href="#/"><span class="entypo-home"></span> Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" ng-href="#/about">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#/education">Education</a>
+              </li>
+							<li class="nav-item active">
+                <a class="nav-link" href="#/skills">Skills</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#/work">Work</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+       <!-- END NAVIGATION -->
+
+        <main ng-view></main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="container">
+            <span class="text-muted copy">Copyright 2016. <span class="entypo-heart red copy-heart"></span> Sameer Thite</span>
+          </div>
+        </footer>
+        <!-- END FOOTER -->
+
+        <!-- Scripts -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="assets/js/tether.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+        <script src="bower_components/firebase/firebase.js"></script>
+        <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>

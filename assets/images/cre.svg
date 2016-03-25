@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 350 200" style="enable-background:new 0 0 350 200;" xml:space="preserve">
+   <style>
+     #background {
+        overflow:hidden;
+     }
+     #XMLID_147_ {
+      transform:translateY(0px);
+     }
+
+     #XMLID_147_ {
+      animation:slide-down 4s 1 ease;
+     }
+
+     @keyframes slide-down {
+      0% {
+        transform:translateY(-300px);
+      }
+      90% {
+        transform:translateY(0px);
+      }
+      75% {
+        transform:translateY(10px);
+      }
+      90% {
+        transform:translateY(5px);
+      }
+      100% {
+        transform:translateY(0px);
+      }
+     }
+
+   </style>
+<g id="Layer_2">
+	<rect id="background" style="fill:#EE2A7B;" width="350" height="200"/>
+</g>
+<g id="Layer_4">
+	<g id="XMLID_147_">
+		<g>
+			<polygon id="XMLID_195_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;" points="163.1,132.9 192.3,132.9
+				205.9,157.7 149.4,157.7 			"/>
+			<path id="XMLID_194_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#46749C;" d="M108.9,36.2h137.6c3.9,0,7,3.2,7,7v89
+				c0,3.9-3.2,7-7,7H108.9c-3.9,0-7-3.2-7-7v-89C101.8,39.3,105,36.2,108.9,36.2z"/>
+			<g>
+				<circle id="XMLID_193_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F5F5F5;" cx="244.9" cy="133" r="0.9"/>
+				<circle id="XMLID_192_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F5F5F5;" cx="241.4" cy="133" r="0.9"/>
+				<circle id="XMLID_191_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F5F5F5;" cx="237.8" cy="133" r="0.9"/>
+			</g>
+			<path id="XMLID_190_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#46749C;" d="M93.7,150.2h167.9c2.1,0,3.7,1.7,3.7,3.7v0
+				c0,2.1-1.7,3.7-3.7,3.7H93.7c-2.1,0-3.7-1.7-3.7-3.7v0C90,151.9,91.6,150.2,93.7,150.2z"/>
+			<path id="XMLID_189_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;" d="M265.4,153.9c0,2.1-1.7,3.7-3.7,3.7H93.7
+				c-2.1,0-3.7-1.7-3.7-3.7H265.4z"/>
+		</g>
+		<g>
+
+				<rect id="XMLID_188_" x="106.5" y="40.3" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="142.3" height="86.4"/>
+			<rect id="XMLID_187_" x="116" y="40.3" style="fill-rule:evenodd;clip-rule:evenodd;fill:#91BDE3;" width="123.4" height="7.5"/>
+
+				<rect id="XMLID_186_" x="148.9" y="52.3" style="fill-rule:evenodd;clip-rule:evenodd;fill:#ED7B5C;" width="57.4" height="11.4"/>
+			<rect id="XMLID_185_" x="116" y="77" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" width="123.4" height="31.4"/>
+			<rect id="XMLID_184_" x="139.7" y="68.1" style="fill-rule:evenodd;clip-rule:evenodd;fill:#91BDE3;" width="76" height="4.8"/>
+
+				<rect id="XMLID_183_" x="123.4" y="114.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFD47F;" width="31" height="11.9"/>
+
+				<rect id="XMLID_182_" x="162.2" y="114.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F06358;" width="31" height="11.9"/>
+
+				<rect id="XMLID_181_" x="200.9" y="114.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#6A8733;" width="31" height="11.9"/>
+		</g>
+		<g>
+			<g>
+
+					<rect id="XMLID_180_" x="74" y="116.8" transform="matrix(-0.9087 0.4174 -0.4174 -0.9087 201.4033 236.1715)" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" width="1.8" height="46.7"/>
+				<polygon id="XMLID_179_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;" points="64.3,119.3 65.9,118.5 63.9,116.3
+									"/>
+			</g>
+			<g>
+
+					<rect id="XMLID_178_" x="91.4" y="117.6" transform="matrix(0.8637 0.504 -0.504 0.8637 83.6193 -27.3148)" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F9A818;" width="1.8" height="46.7"/>
+				<polygon id="XMLID_177_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;" points="104.8,121.2 103.3,120.3
+					105.5,118.3 				"/>
+			</g>
+			<g>
+
+					<rect id="XMLID_176_" x="79.2" y="115.3" transform="matrix(-0.9802 0.1979 -0.1979 -0.9802 185.9836 258.6841)" style="fill-rule:evenodd;clip-rule:evenodd;fill:#A2C9EB;" width="1.8" height="46.7"/>
+				<polygon id="XMLID_175_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;" points="74.6,115.9 76.3,115.6 74.9,112.9
+									"/>
+			</g>
+			<g>
+
+					<rect id="XMLID_174_" x="89.2" y="115.9" transform="matrix(-0.9725 -0.2331 0.2331 -0.9725 145.3385 295.5818)" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F06358;" width="1.8" height="46.7"/>
+				<polygon id="XMLID_173_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;" points="94.7,116.3 96.5,116.7 96.2,113.7
+									"/>
+			</g>
+			<g>
+
+					<rect id="XMLID_172_" x="69.2" y="132.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" width="30.1" height="2.3"/>
+				<rect id="XMLID_171_" x="77" y="161.6" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" width="14.6" height="2.3"/>
+				<polygon id="XMLID_170_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="71.5,135.2 79.2,163.8 77,163.8
+					69.2,135.2 				"/>
+				<polygon id="XMLID_169_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="97.1,135.2 89.4,163.8 91.6,163.8
+					99.3,135.2 				"/>
+				<g>
+					<g>
+						<polygon id="XMLID_168_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="73.3,134.8 80.7,162 79.5,162
+							72.1,134.8 						"/>
+						<polygon id="XMLID_167_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="76,134.8 83.3,162 82.1,162
+							74.8,134.8 						"/>
+						<polygon id="XMLID_166_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="78.6,134.8 86,162 84.8,162
+							77.4,134.8 						"/>
+						<polygon id="XMLID_165_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="81.3,134.8 88.7,162 87.5,162
+							80.1,134.8 						"/>
+						<polygon id="XMLID_164_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="84,134.8 90.7,159.9 90.1,162
+							90.1,162 82.8,134.8 						"/>
+						<polygon id="XMLID_163_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="86.6,134.8 92.1,154.9
+							91.5,157.2 85.4,134.8 						"/>
+						<polygon id="XMLID_162_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="89.3,134.8 93.4,150 92.8,152.2
+							88.1,134.8 						"/>
+						<polygon id="XMLID_161_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="91.9,134.8 94.7,145.1
+							94.1,147.3 90.7,134.8 						"/>
+						<polygon id="XMLID_160_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="94.6,134.8 96,140.2 95.4,142.4
+							93.4,134.8 						"/>
+						<polygon id="XMLID_159_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="97.2,134.8 97.4,135.2
+							96.8,137.5 96,134.8 						"/>
+					</g>
+					<g>
+						<polygon id="XMLID_158_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="94.8,134.8 87.5,162 88.7,162
+							96,134.8 						"/>
+						<polygon id="XMLID_157_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="92.2,134.8 84.8,162 86,162
+							93.4,134.8 						"/>
+						<polygon id="XMLID_156_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="89.5,134.8 82.2,162 83.4,162
+							90.7,134.8 						"/>
+						<polygon id="XMLID_155_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="86.9,134.8 79.5,162 80.7,162
+							88.1,134.8 						"/>
+						<polygon id="XMLID_154_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="84.2,134.8 77.6,159.1
+							78.2,161.4 85.4,134.8 						"/>
+						<polygon id="XMLID_153_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="81.6,134.8 76.3,154.2
+							76.9,156.4 82.8,134.8 						"/>
+						<polygon id="XMLID_152_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="78.9,134.8 75,149.3 75.6,151.5
+							80.1,134.8 						"/>
+						<polygon id="XMLID_151_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="76.2,134.8 73.6,144.4
+							74.2,146.6 77.4,134.8 						"/>
+						<polygon id="XMLID_150_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="73.6,134.8 72.3,139.4
+							72.9,141.7 74.8,134.8 						"/>
+						<polygon id="XMLID_149_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" points="71.6,136.7 72.1,134.8
+							71.1,134.8 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<path id="XMLID_146_" style="fill:#FFFFFF;" d="M234.3,90.4c-0.1-0.2-0.1-0.4,0.1-0.5c0.2-0.1,0.4-0.1,0.5,0.1l1,1.2c0,0,0,0,0,0
+				l0,0l0,0l0,0l0,0l0,0l0,0c0,0,0,0,0,0l0,0c0,0,0,0,0,0.1v0c0,0,0,0,0,0l0,0v0l0,0c0,0,0,0,0,0v0c0,0,0,0,0,0.1l0,0c0,0,0,0,0,0
+				l0,0l0,0l0,0l0,0l0,0l0,0c0,0,0,0,0,0l-1,1.2c-0.1,0.2-0.4,0.2-0.5,0.1c-0.2-0.1-0.2-0.4-0.1-0.5l0.8-1L234.3,90.4z"/>
+			<path id="XMLID_145_" style="fill:#FFFFFF;" d="M121.4,90.4c0.1-0.2,0.1-0.4-0.1-0.5c-0.2-0.1-0.4-0.1-0.5,0.1l-1,1.2
+				c0,0,0,0,0,0l0,0l0,0l0,0l0,0l0,0l0,0c0,0,0,0,0,0l0,0c0,0,0,0,0,0.1l0,0c0,0,0,0,0,0l0,0v0l0,0c0,0,0,0,0,0l0,0c0,0,0,0,0,0.1
+				l0,0c0,0,0,0,0,0l0,0l0,0l0,0l0,0l0,0l0,0c0,0,0,0,0,0l1,1.2c0.1,0.2,0.4,0.2,0.5,0.1c0.2-0.1,0.2-0.4,0.1-0.5l-0.8-1L121.4,90.4
+				z"/>
+		</g>
+		<g>
+			<g>
+				<path id="XMLID_144_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#4D4D4D;" d="M277.2,102.9h-25.1c-4.9,0-8.8,4-8.8,8.8
+					V155c0,4.9,4,8.8,8.8,8.8h25.1c4.9,0,8.8-4,8.8-8.8v-43.3C286.1,106.9,282.1,102.9,277.2,102.9z"/>
+				<path id="XMLID_143_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M282.9,108h-36.4c-0.1,0-0.1,0.1-0.1,0.1
+					v49.9c0,0.1,0.1,0.1,0.1,0.1h36.4c0.1,0,0.1-0.1,0.1-0.1v-49.9C283,108.1,283,108,282.9,108z"/>
+				<path id="XMLID_142_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" d="M269.4,104.4H260c-0.3,0-0.5,0.2-0.5,0.5
+					l0,0c0,0.3,0.2,0.5,0.5,0.5h9.4c0.3,0,0.5-0.2,0.5-0.5l0,0C269.9,104.6,269.7,104.4,269.4,104.4z"/>
+				<path id="XMLID_141_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" d="M264.7,162.5c0.9,0,1.6-0.7,1.6-1.6
+					c0-0.9-0.7-1.6-1.6-1.6c-0.9,0-1.6,0.7-1.6,1.6C263.2,161.8,263.9,162.5,264.7,162.5z"/>
+			</g>
+			<g>
+
+					<rect id="XMLID_140_" x="246.4" y="108" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="36.6" height="50.2"/>
+
+					<rect id="XMLID_139_" x="246.4" y="108" style="fill-rule:evenodd;clip-rule:evenodd;fill:#91BDE3;" width="36.6" height="2.4"/>
+
+					<rect id="XMLID_138_" x="256.2" y="112" style="fill-rule:evenodd;clip-rule:evenodd;fill:#ED7B5C;" width="17.1" height="3.7"/>
+
+					<rect id="XMLID_137_" x="246.4" y="120" style="fill-rule:evenodd;clip-rule:evenodd;fill:#5896CC;" width="36.6" height="10.2"/>
+
+					<rect id="XMLID_136_" x="253.4" y="117.1" style="fill-rule:evenodd;clip-rule:evenodd;fill:#91BDE3;" width="22.6" height="1.6"/>
+
+					<rect id="XMLID_135_" x="248.6" y="132.3" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFD47F;" width="9.2" height="8.3"/>
+
+					<rect id="XMLID_134_" x="260.1" y="132.3" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FA9891;" width="9.2" height="8.3"/>
+
+					<rect id="XMLID_133_" x="271.6" y="132.3" style="fill-rule:evenodd;clip-rule:evenodd;fill:#A2C9EB;" width="9.2" height="8.3"/>
+
+					<rect id="XMLID_132_" x="246.4" y="153.8" style="fill-rule:evenodd;clip-rule:evenodd;fill:#91BDE3;" width="36.6" height="4.5"/>
+				<g>
+
+						<rect id="XMLID_131_" x="248.6" y="141.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_130_" x="248.6" y="144.4" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_129_" x="248.6" y="147.1" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_128_" x="248.6" y="149.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="5.8" height="1.6"/>
+
+						<rect id="XMLID_127_" x="260.1" y="141.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_126_" x="260.1" y="144.4" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_125_" x="260.1" y="147.1" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_124_" x="260.1" y="149.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="5.8" height="1.6"/>
+
+						<rect id="XMLID_123_" x="271.6" y="141.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_122_" x="271.6" y="144.4" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_121_" x="271.6" y="147.1" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="9.2" height="1.6"/>
+
+						<rect id="XMLID_120_" x="271.6" y="149.7" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;" width="5.8" height="1.6"/>
+				</g>
+				<path id="XMLID_119_" style="fill:#FFFFFF;" d="M280.6,123.6c-0.1-0.1-0.1-0.3,0-0.4c0.1-0.1,0.3-0.1,0.4,0l0.8,1c0,0,0,0,0,0v0
+					l0,0l0,0l0,0l0,0l0,0c0,0,0,0,0,0l0,0c0,0,0,0,0,0v0c0,0,0,0,0,0v0v0v0c0,0,0,0,0,0v0c0,0,0,0,0,0l0,0c0,0,0,0,0,0l0,0l0,0l0,0
+					l0,0l0,0v0c0,0,0,0,0,0l-0.8,1c-0.1,0.1-0.3,0.2-0.4,0c-0.1-0.1-0.2-0.3,0-0.4l0.6-0.8L280.6,123.6z"/>
+				<path id="XMLID_1_" style="fill:#FFFFFF;" d="M248.3,123.2c0.1-0.1,0.3-0.2,0.4,0c0.1,0.1,0.2,0.3,0,0.4l-0.6,0.8l0.6,0.8
+					c0.1,0.1,0.1,0.3,0,0.4c-0.1,0.1-0.3,0.1-0.4,0l-0.8-1c0,0,0,0,0,0l0,0l0,0l0,0l0,0l0,0l0,0c0,0,0,0,0,0l0,0c0,0,0,0,0,0v0
+					c0,0,0,0,0,0v0v0v0c0,0,0,0,0,0v0c0,0,0,0,0,0l0,0c0,0,0,0,0,0l0,0l0,0l0,0l0,0l0,0l0,0c0,0,0,0,0,0L248.3,123.2z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

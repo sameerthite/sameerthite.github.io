@@ -1,0 +1,13 @@
+input.ng-invalid.ng-touched {
+	border:2px solid red;
+}
+input.ng-valid.ng-touched {
+	border:2px solid green;
+}
+.bg-invalid .btn .btn-primary {
+	background: gray;
+}
+.error {
+	color: red;
+	padding-top: 10px;
+}
