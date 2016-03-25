@@ -1,4 +1,4 @@
-var myPortfolio = angular.module("myPortfolio", ["ngRoute", "firebase"]);
+var myPortfolio = angular.module("myPortfolio", ["ngRoute", "firebase", "angular-loading-bar", "ngAnimate"]);
 
 myPortfolio.config(["$routeProvider", function ($routeProvider) {
     $routeProvider
@@ -8,11 +8,11 @@ myPortfolio.config(["$routeProvider", function ($routeProvider) {
     }).
        when("/about", {
        	templateUrl: "pages/about.html",
-       	controller: "MainController"
+       	controller: "AboutController"
     }).
        when("/education", {
         templateUrl: "pages/education.html",
-        controller: "MainController"
+        controller: "EducationController"
     }).
        when("/work", {
         templateUrl: "pages/work.html",
@@ -20,7 +20,7 @@ myPortfolio.config(["$routeProvider", function ($routeProvider) {
     }).
        when("/contact", {
         templateUrl: "pages/contact.html",
-        controller: "MainController"
+        controller: "ContactController"
     }).
     when("/websites", {
          templateUrl: "pages/websites.html",
@@ -32,7 +32,7 @@ myPortfolio.config(["$routeProvider", function ($routeProvider) {
       }).
        when("/skills", {
         templateUrl: "pages/skills.html",
-        controller: "MainController"
+        controller: "SkillController"
     }).
     otherwise({
         redirectTo: "/"
@@ -40,6 +40,8 @@ myPortfolio.config(["$routeProvider", function ($routeProvider) {
 }]);
 
 myPortfolio.controller('MainController', ['$scope', '$firebaseArray', function($scope, $firebaseArray) {
+
+  $scope.pageClass = 'page-contact';
 
   var ref = new Firebase('https://sameerportfolio.firebaseio.com/messages');
   
@@ -109,4 +111,20 @@ myPortfolio.controller('MainController', ['$scope', '$firebaseArray', function($
   } //clearfields
 
 }]);
+
+myPortfolio.controller("AboutController", function($scope) {
+    $scope.pageClass = 'page-about';
+}); //about controller
+
+myPortfolio.controller("EducationController", function($scope) {
+    $scope.pageClass = 'page-contact';
+});
+
+myPortfolio.controller("SkillController", function($scope) {
+    $scope.pageClass = 'page-about';
+});
+
+myPortfolio.controller("ContactController", function($scope) {
+    $scope.pageClass = 'page-contact';
+});
 

@@ -1,3 +1,4 @@
+<div ng-controller="ContactController">
 <div class="container">
 	<h3 class="page-heading">Contact <span class="orange">ME</span></h3>
 </div>
@@ -13,8 +14,8 @@
 						<p>
 							feel free to contact me
 						</p>
-						<p ng-show="msg">{{msg}}</p>
-						<form ng-submit="addFormSubmit()" name="myform" novalidate>
+						<p ng-show="msg" class="messagetext">{{msg}}</p>
+						<form ng-submit="addFormSubmit()" method="POST" name="myform" novalidate>
 
 						  <fieldset class="form-group">
 						    <label for="formGroupExampleInput">Name</label>
@@ -78,7 +79,7 @@
 								<p>
 									feel free to write about my (this) portfolio website
 								</p>
-								<p ng-show="fmsg">{{fmsg}}</p>
+								<p ng-show="fmsg" class="messagetext">{{fmsg}}</p>
 								<form name="myform2" ng-submit="addFeedback()" method="post" novalidate>
 
 									<fieldset class="form-group">
@@ -104,7 +105,7 @@
 		    						Type something for me</small>
 								  </fieldset>
 
-									<fieldset class="form-group">
+								  <fieldset class="form-group">
 								  	<button type="submit" name="submit" class="btn btn-success">SAVE</button>
 								  </fieldset>
 
@@ -122,3 +123,4 @@
 	</div>
 </section>
 <!-- SECTION CONTACT ENDS -->
+</div>
