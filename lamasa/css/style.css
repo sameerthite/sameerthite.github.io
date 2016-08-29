@@ -10,6 +10,97 @@ a {
 	font-weight: bold;
 }
 
+.lead {
+	font-size: 16px;
+}
+
+button {
+	padding: 10px 25px;
+	border: none;
+	background: #9c27b0;
+	color: #fff;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+    box-shadow: 0px 6px #7b1fa2;
+    border-radius: 0 0 5px 5px;
+}
+
+button:hover {
+  box-shadow: 0 4px #7b1fa2;
+  top: 2px;
+  /*-webkit-box-shadow: 0 .1em 1em;
+  -moz-box-shadow: 0 .1em 1em;
+  -o-box-shadow: 0 .1em 1em;
+  box-shadow: 0 .1em 1em;*/
+}
+
+button:active {
+	box-shadow: 0 0 #7b1fa2;
+	top: 6px;
+}
+
+/**************Heading*************/
+
+.heading {
+	margin-bottom: 90px;
+}
+
+.heading h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.heading h1 span {
+	font-weight: bold;
+}
+
+.heading::after {
+	content: "";
+	
+	background-image: url("../images/border.png");
+	width: 160px;
+	height: 40px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	left: 50%;
+	margin-left: -80px;
+	margin-top: -20px;
+}
+
+.heading-white {
+	margin-bottom: 90px;
+}
+
+.heading-white h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: normal;
+}
+
+.heading-white h1 span {
+	font-weight: bold;
+}
+
+.heading-white::after {
+	content: "";
+	
+	background-image: url("../images/border-white.png");
+	width: 160px;
+	height: 40px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	left: 50%;
+	margin-left: -80px;
+	margin-top: -20px;
+}
+
 /**************Header*************/
 
 .header-one {
@@ -109,6 +200,9 @@ a {
 	padding: 0;
 	background: url("../images/bg.jpg") no-repeat left top/cover;
 	height: 500px;
+	background-attachment: fixed;
+	animation: slider-lg ease-in-out 30s both infinite;
+	-moz-animation: slider-lg ease-in-out 30s both infinite;
 }
 
 .card-outside {
@@ -123,4 +217,27 @@ a {
 	text-align: center;
 	background: rgba(0,0,0,0.4);
 	color: #fff;
+}
+
+/**************About Us*************/
+
+.about {
+	padding: 40px 0 80px 0;
+}
+
+.about-image {
+	background: url("../images/about-bg.jpg") no-repeat center center/cover fixed;
+	height: 500px;
+}
+
+.about-content {
+	padding: 50px;
+}
+
+/**************Product*************/
+
+.product {
+	padding: 40px 0 80px 0;
+	background: url("../images/product-bg.jpg") no-repeat center center/cover fixed;
+	height: 500px;
 }
