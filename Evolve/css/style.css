@@ -1,0 +1,163 @@
+.top-bar {
+    padding: 5px 0;
+    background: #2196F3;
+}
+.phone, .email {
+    color: #fff;
+    font-size: 13px;
+}
+
+.phone:hover, .email:hover {
+    color: aqua;
+    text-decoration: none;
+}
+.phone {
+    margin-right: 20px;
+}
+
+.navbar {
+    padding: 1rem 1rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-fixed-top {
+    padding: .3rem 1rem;
+    transition: .3s;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 2rem;
+}
+
+.banner {
+    height: 500px;
+    background: url(../images/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services-home {
+    border-top: 20px solid #2196F3;
+    padding-bottom: 80px;
+}
+
+.services-home-heading {
+    padding: .5rem 0 1.5rem 0;
+    background: #2196F3;
+    color: #fff;
+}
+
+/*typed*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.element {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 200px;
+}
+
+.card:hover {
+    box-shadow:5px 10px 15px rgba(0,0,0,0.25);
+}
+
+.about-home {
+    border-top: 20px solid #2196F3;
+    padding-bottom: 80px;
+    background: url(../images/about.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.startup {
+    background: url(../images/startup.png) center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-attachment:scroll;
+}
+
+.about-text {
+    color: #fff;
+    padding-top: 70px;
+}
+
+.contact-home {
+    border-top: 20px solid #2196F3;
+    padding-bottom: 80px;
+}
+
+.home-contact-form {
+    margin-top: 80px;
+}
+
+.social-inner {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-inner:hover img {
+    transition: all  .7s ease;
+    transform: scale(1.2);
+}
+
+.social-inner:hover {
+    opacity: 1;
+    transition: all  .7s ease;
+}
+
+.facebook {
+    background: #2b4173;
+    opacity: .7;
+}
+
+.google {
+    background: #c63e24;
+    opacity: .7;
+}
+
+.linkedin {
+    background: #0260a5;
+    opacity: .7;
+}
+
+.pinterest {
+    background: #b72629;
+    opacity: .7;
+}
+
+.facebook img, .google img, .linkedin img, .pinterest img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    background: #3a3a3b;
+    padding: 50px 0 30px;
+}
+
+.footer-text {
+    color: #fff;
+}
