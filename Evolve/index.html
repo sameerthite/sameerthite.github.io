@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Evolve SoftTech</title>
+
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <!-- TOP BAR -->
     <section class="top-bar">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-xs-12">
                     <a href="#" class="email float-xs-right">Email: info@evolvesofttech.com</a><a href="#" class="phone float-xs-right">Phone: +91 9876543210</a>
                 </div>
             </div>
@@ -31,13 +30,16 @@
                 <a class="navbar-brand hidden-sm-down" href="#">Evolve SoftTech</a>
                 <ul class="nav navbar-nav float-xs-right">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
@@ -105,7 +107,45 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 internship-text">
-
+                    <h5>Why Us?</h5><br>
+                    <div class="internship-block-wrapper">
+                        <div class="row internship-block" data-aos="fade-right">
+                            <div class="col-md-3">
+                                <img src="images/int3.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="lead">Industry level training</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="row internship-block" data-aos="fade-right" data-aos-delay="200">
+                            <div class="col-md-3">
+                                <img src="images/int4.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="lead">Project development from scratch</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="row internship-block" data-aos="fade-right" data-aos-delay="400">
+                            <div class="col-md-3">
+                                <img src="images/int1.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="lead">Guidance for certification</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="row internship-block" data-aos="fade-right" data-aos-delay="500">
+                            <div class="col-md-3">
+                                <img src="images/int2.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="lead">Different trainers for theory &amp; practicals</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6 internship-img">
 
@@ -172,16 +212,16 @@
                 <div class="col-md-6 home-contact-img">
                     <form action="#" class="home-contact-form">
                         <div class="form-group row">
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" class="form-control" placeholder="Name" required>
                         </div>
                         <div class="form-group row">
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="email" class="form-control" placeholder="Email" required>
                         </div>
                         <div class="form-group row">
-                            <input type="text" class="form-control" placeholder="Subject">
+                            <input type="text" class="form-control" placeholder="Subject" required>
                         </div>
                         <div class="form-group row">
-                            <textarea name="message" placeholder="Message" class="form-control" cols="30" rows="10"></textarea>
+                            <textarea name="message" placeholder="Message" class="form-control" cols="30" rows="10" required></textarea>
                         </div>
                         <br>
                         <div class="form-group row text-xs-center">
@@ -240,41 +280,8 @@
     <script src="js/aos.js"></script>
     <!-- TYPED JS -->
     <script src="js/typed.js"></script>
-    <script>
-    $(function() {
-
-        var menu = $('.navbar');
-        var origOffsetY = menu.offset().top;
-
-        function scroll() {
-            if ($(window).scrollTop() >= origOffsetY) {
-                $('.navbar').addClass('navbar-fixed-top');
-            } else {
-                $('.navbar').removeClass('navbar-fixed-top');
-            }
-        }
-        document.onscroll = scroll;
-    });
-    </script>
-    <script>
-    AOS.init({
-        easing: 'ease-out-back',
-        duration: 1000
-    });
-    </script>
-    <script>
-    $(function() {
-        $(".element").typed({
-            strings: ["Welcome to Evolve SoftTech", "We help you to make your career bright!", "Join us!"],
-            typeSpeed: 50,
-            backSpeed: 0,
-            loop: true,
-            startDelay: 100,
-            loopCount: true,
-            backDelay: 2000
-        });
-    });
-    </script>
+    <!-- CUSTOM SCRIPT -->
+    <script src="js/script.js"></script>
 
 </body>
 

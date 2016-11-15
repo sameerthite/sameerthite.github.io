@@ -205,6 +205,21 @@
     background: url(../images/internship1.jpg) center center no-repeat/cover;
 }
 
+.internship-text {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.internship-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 /*=====  End of Internship Home  ======*/
 
 
